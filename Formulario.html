@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="JS/Index.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Formulários HTML</h2>
+    <form>
+        <div>
+            <fieldset>
+            <label for="fistname">Nome</label>
+            <input type="fistname" name="name"/>
+
+            <label for="lastname">Sobrenome</label>
+            <input type="name" name="name"/>
+
+            <label for="age">Idade</label>
+            <input type="text" name="age"/>
+
+            <label for="password">Digite sua senha</label>
+            <input type="password" name="senha">
+
+            <label for="salary">Quanto voce ganha no seu emprego atual?</label>
+            <input type="number" name="salary">
+
+            <label for="image">Insira sua imagem</label>
+            <input type="file" name="image">
+
+            <label for="birthday">Data de Nascimento</label>
+            <input type="date" name="birthday">
+
+            <label for="birthday">Data de Nascimento</label>
+            <input type="text" name="Digite o ano em que voce nasceu">
+
+            <label for="Job"> Selecione sua Profissão</label>
+            <select name="Job">
+                <option value="Programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="Devops">DevOps</option>
+            </select>
+
+            <label for="contract">Você leu o contrato?</label>
+            <select name="contract">
+            <Option value="Sim">Sim</Option>
+            <Option value="Não" selected>Não</Option>
+            </select>
+
+            <label for="email">Digite seu e-mail</label>
+            <input type="email" name="email">
+
+            <label for="itens">Selecione os itens</label>
+            <select name="Itens" multiple>
+                <option value="Pera">Pera</option>
+                <option value="Feijão">Feijão</option>
+                <option value="Arroz">Arroz</option>
+                <option value="Milho">Milho</option>
+            </select>
+
+            <label for="comment"> Comente:</label>
+            <textarea name="Comment"></textarea>
+
+            <label for="falvor">Escolha o sabor</label>
+                <Input type="text" list="flavors" name="flavor">
+                <datalist id="falvors">
+                    <option value="Cereja">Cereja</option>
+                    <option value="Morango">Morango</option>
+                    <option value="Abacaxi">Abacaxi</option>
+                    <option value="Chocolate">Chocolate</option>
+                </datalist>
+
+                <label for="optionals">Opcionais do Carro </label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="sunroof">Teto solar</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="leather_seats">Banco de Couro</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Sistema de Navegação (GPS)</label>
+            </div>
+
+            <label for="value">Digite algum valor </label>
+            <input type="text" value="O meu valor e este" name="value">
+            <p>Tente mudar o valor</p>
+            <input type="text" value="Não precisa preencher" disabled>
+
+            <label for="currentjob">Digite a sua profissão </label>
+            <input type="text" name="currentjob" placeholder="No que vc esta trabalhando agora">
+             
+            <h1>arrays e objetos</h1>
+            
+
+            <input type="reset" value="Limpar">
+            <Input type="submit" value="Enviar"></Input>
+
+            </fieldset> 
+        </div>
+    </form>
+</body>
+</html>
